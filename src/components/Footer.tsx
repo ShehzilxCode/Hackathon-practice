@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
 
 const Footer = () => {
     return ( 
@@ -37,7 +38,7 @@ const Footer = () => {
                         <a href="/wishlist" className="hover:underline">Wishlist</a>
                     </li>
                     <li className="mb-2">
-                        <a href="/home" className="hover:underline">Shop</a>
+                        <Link href="/" className="hover:underline" />Shop
                     </li>
                 </ul>
             </div>

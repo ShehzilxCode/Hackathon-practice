@@ -104,7 +104,7 @@ const SignUp = () => {
                         </div>
                         <button className="w-full border border-gray-300 text-gray-700 py-3 rounded-lg flex items-center justify-center hover:bg-gray-100 transition duration-200">
                             <img
-                                src="https://placehold.co/20x20"
+                                src="images/login/Icon-Google.png"
                                 alt="Google logo"
                                 className="w-5 h-5 mr-2"
                             />
@@ -113,7 +113,7 @@ const SignUp = () => {
                     </form>
                     <p className="text-gray-600 mt-6 text-center">
                         Already have an account?{" "}
-                        <a href="#" className="text-black underline">
+                        <a href="/login" className="text-black underline">
                             Log in
                         </a>
                     </p>
